@@ -8,6 +8,7 @@ class Heroimage2 extends Component {
         <div className="heading">
           <h1>{this.props.heading}</h1>
           <p>{this.props.text}</p>
+          <img src={this.props.img} alt="sampleimage"></img>
         </div>
       </div>
     );

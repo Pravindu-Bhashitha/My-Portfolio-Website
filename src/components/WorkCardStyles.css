@@ -4,11 +4,11 @@
 }
 
 .project-container{
-    max-width: 1140px;
+    max-width: 1000px; /*Change the width*/
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-template-columns: repeat(2,1fr); /*Reapeat aka athule 2da 3da anuwa puluwan athanata ena gaana wenas karanna*/
+    grid-gap: 150px;
     padding-bottom: 5rem;
 }
 

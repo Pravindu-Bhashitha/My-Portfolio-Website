@@ -6,11 +6,13 @@ import python from "../assets/Python.png";
 import react from "../assets/React.jpg";
 import SQL from "../assets/SQLN.png";
 import NET from "../assets/NETN.png";
+// import ME from "../assets/Me.jpg";
 
 const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
+        {/* <img src={ME} alt="ProfilePhoto" className="pro-photo"></img> */}
         <h1>Who Am I?</h1>
         <p style={{marginBottom:"10px"}}>
           I am a dedicated, self-driven, and enthusiastic student striving to
