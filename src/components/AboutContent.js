@@ -6,13 +6,13 @@ import python from "../assets/Python.png";
 import react from "../assets/React.jpg";
 import SQL from "../assets/SQLN.png";
 import NET from "../assets/NETN.png";
-// import CV from "../assets/YourCV.pdf";
+import CV from "../assets/Pravindu_Bhashitha_SE.pdf";
 
 const AboutContent = () => {
   const handleDownloadCV = () => {
     // Create a virtual link element
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1cudcTi2rJJajoil6tnuYfjilUIEa9MLH/view?usp=sharing"; // URL of your CV file
+    link.href = CV; // URL of your CV file
     link.download = "Pravindu_Bhashitha.pdf"; // The default name for the downloaded file
     link.target = "_blank";
     link.click();
