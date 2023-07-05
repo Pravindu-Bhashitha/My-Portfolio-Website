@@ -20,10 +20,10 @@ const ContactForm = () => {
         <label>Message</label>
         <textarea
           rows="6"
-          type="text"
           placeholder="Type Your Message Here"
           id="message"
           name="message"
+          value="message"
           // value={message} onChange={(e) => setMessage(e.target.value)}
         />
         <button className="btn" type="submit">
