@@ -4,13 +4,14 @@ import "./FormStyles.css";
 const ContactForm = () => {
   return (
     <div className="form">
-      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+      <form name="contact" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact"/>
         <label>Your Name</label>
-        <input type="text" name="name" required />
+        <input type="text" id="name" name="name" required />
         <label>Email</label>
-        <input type="email" name="email" required />
+        <input type="email"id="email" name="email" required />
         <label>Subject</label>
-        <input type="text" name="subject" required />
+        <input type="text" id="subject" name="subject" required />
         <label>Message</label>
         <textarea
           rows="6"
