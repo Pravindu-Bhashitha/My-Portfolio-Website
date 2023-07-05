@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Heroimage2Style.css";
 
 class Heroimage2 extends Component {
-  render(){
+  render() {
     return (
       <div className="hero-img">
         <div className="heading">
@@ -13,6 +13,6 @@ class Heroimage2 extends Component {
       </div>
     );
   }
-};
+}
 
 export default Heroimage2;

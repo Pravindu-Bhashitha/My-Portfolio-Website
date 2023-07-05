@@ -21,7 +21,6 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        {/* <img src={ME} alt="ProfilePhoto" className="pro-photo"></img> */}
         <h1>Who Am I?</h1>
         <p style={{ marginBottom: "10px" }}>
           I am a dedicated, self-driven, and enthusiastic student striving to
@@ -58,12 +57,20 @@ const AboutContent = () => {
             <img
               src={SQL}
               alt="sqlimage"
-              style={{ width: "100px", height: "80px", margin: "0 20px 0 -25px" }}
+              style={{
+                width: "100px",
+                height: "80px",
+                margin: "0 20px 0 -25px",
+              }}
             ></img>
             <img
               src={NET}
               alt="sqlimage"
-              style={{ width: "100px", height: "80px", margin: "0 20px 0 -25px" }}
+              style={{
+                width: "100px",
+                height: "80px",
+                margin: "0 20px 0 -25px",
+              }}
             ></img>
           </div>
         </div>

@@ -8,12 +8,12 @@ import Project from "./routes/Project";
 
 function App() {
   return (
-    <div className="App" style={{color:"black"}}>
+    <div className="App" style={{ color: "black" }}>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="project" element={<Project/>}/>
-        <Route path="contact" element={<Contact/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="project" element={<Project />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

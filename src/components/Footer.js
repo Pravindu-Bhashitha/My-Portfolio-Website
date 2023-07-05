@@ -50,28 +50,28 @@ const Footer = () => {
           </p>
           <div className="social">
             <Link to="https://www.instagram.com/bhashitha_s_hennadi99/">
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
             </Link>
             <Link to="https://www.linkedin.com/in/pravindu-bhashitha/">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
             </Link>
             <Link to="https://www.facebook.com/pravindu.bhashitha">
-             <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
             </Link>
             <Link to="https://github.com/Pravindu-Bhashitha">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
             </Link>
           </div>
         </div>

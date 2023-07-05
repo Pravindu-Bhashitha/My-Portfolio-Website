@@ -7,10 +7,10 @@ import Work from "../components/Work";
 const Home = () => {
   return (
     <div>
-      <Navbar/>
-      <Heroimage/>
-      <Work/>
-      <Footer/>
+      <Navbar />
+      <Heroimage />
+      <Work />
+      <Footer />
     </div>
   );
 };
