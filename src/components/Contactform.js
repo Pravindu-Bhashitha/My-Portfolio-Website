@@ -9,8 +9,8 @@ const ContactForm = () => {
   console.log(name,email,subject);
   return (
     <div className="form">
-      <form name="contact v1" method="POST" data-netlify="true" onSubmit="submit">
-        <input type="hidden" name="form-name" value="contact v1" />
+      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+        <input type="hidden" name="form-name" value="contact"/>
         <label>Your Name</label>
         <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
         <label>Email</label>
