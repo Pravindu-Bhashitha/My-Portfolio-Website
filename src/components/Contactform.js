@@ -11,13 +11,13 @@ const ContactForm = () => {
     <div className="form">
       <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact" />
-        <label htmlFor="name">Your Name</label>
+        <label>Your Name</label>
         <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
-        <label htmlFor="email">Email</label>
+        <label>Email</label>
         <input type="email"id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        <label htmlFor="subject">Subject</label>
+        <label>Subject</label>
         <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
-        <label htmlFor="message">Message</label>
+        <label>Message</label>
         <textarea
           rows="6"
           placeholder="Type Your Message Here"
