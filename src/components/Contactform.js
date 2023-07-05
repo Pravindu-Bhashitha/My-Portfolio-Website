@@ -9,7 +9,7 @@ const ContactForm = () => {
   return (
     <div className="form">
       <form name="contact" method="POST">
-        {/* <input type="hidden" name="form-name" /> */}
+        <input type="hidden" name="form-name" value="contact" />
         <label>Your Name</label>
         <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
         <label>Email</label>
