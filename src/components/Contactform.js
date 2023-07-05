@@ -18,12 +18,13 @@ const ContactForm = () => {
         <label>Subject</label>
         <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
         <label>Message</label>
-        <textarea
+        {/* <textarea
           rows="6"
           placeholder="Type Your Message Here"
           name="message"
           value={message} onChange={(e) => setMessage(e.target.value)}
-        />
+        /> */}
+        <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
         <button className="btn" type="submit">
           Submit
         </button>
