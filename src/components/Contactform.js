@@ -19,13 +19,13 @@ const ContactForm = () => {
         <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
         <label>Message</label>
         <input
-          rows="6"
+          // rows="6"
           type="text"
-          placeholder="Type Your Message Here"
+          // placeholder="Type Your Message Here"
           id="message"
           name="message"
           value={message} onChange={(e) => setMessage(e.target.value)}
-        />
+        required/>
         <button className="btn" type="submit">
           Submit
         </button>
