@@ -5,7 +5,7 @@ const ContactForm = () => {
   const [name,setName] = useState("");
   const [email,setEmail] = useState("");
   const [subject,setSubject] = useState("");
-  // const [message,setMessage] = useState("");
+  const [message,setMessage] = useState("");
   console.log(name,email,subject);
   return (
     <div className="form">
@@ -16,14 +16,14 @@ const ContactForm = () => {
         <label>Email</label>
         <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         <label>Subject</label>
-        <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
-        <label>Message</label>
         <textarea
           rows="6"
           placeholder="Type Your Message Here"
           name="message"
-          // value={message} onChange={(e) => setMessage(e.target.value)}
+          value={message} onChange={(e) => setMessage(e.target.value)}
         />
+        <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
+        <label>Message</label>
         <button className="btn" type="submit">
           Submit
         </button>
