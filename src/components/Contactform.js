@@ -7,18 +7,17 @@ const ContactForm = () => {
   const [subject,setSubject] = useState("");
   const [message,setMessage] = useState("");
   console.log(name,email,subject,message);
-  
   return (
     <div className="form">
       <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact" />
-        <label for="name">Your Name</label>
+        <label htmlFor="name">Your Name</label>
         <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
-        <label for="email">Email</label>
+        <label htmlFor="email">Email</label>
         <input type="email"id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        <label for="subject">Subject</label>
+        <label htmlFor="subject">Subject</label>
         <input type="text" id="subject" name="subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           rows="6"
           placeholder="Type Your Message Here"
