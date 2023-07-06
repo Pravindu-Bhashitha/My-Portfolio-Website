@@ -54,7 +54,16 @@ const ContactForm = () => {
     emailjs.sendForm('service_tcn0v0i', 'template_l5p8rpv', form.current, 'YgtBeZpyGjuFWP3bc')
       .then((result) => {
           console.log(result.text);
-          toast("Email Sent Successfully")
+          toast.success('Email Sent Successfully!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
       }, (error) => {
           console.log(error.text);
       });
