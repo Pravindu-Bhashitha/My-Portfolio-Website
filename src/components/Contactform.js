@@ -40,11 +40,11 @@ import { toast,ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const ContactForm = () => {
-  const [name,setName] = useState("");
-  const [email,setEmail] = useState("");
-  const [subject,setSubject] = useState("");
-  const [message,setMessage] = useState("");
-  console.log(name,email,subject);
+  // const [name,setName] = useState("");
+  // const [email,setEmail] = useState("");
+  // const [subject,setSubject] = useState("");
+  // const [message,setMessage] = useState("");
+  // console.log(name,email,subject);
   const form = useRef();
 
   const sendEmail = (e) => {
