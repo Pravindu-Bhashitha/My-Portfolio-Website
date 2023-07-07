@@ -63,7 +63,7 @@ const ContactForm = () => {
           console.log(result.text);
           toast.success("Email Sent Successfully!", {
             position: "top-center",
-            autoClose: 5000,
+            autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -77,6 +77,16 @@ const ContactForm = () => {
         },
         (error) => {
           console.log(error.text);
+          toast.error("Something went wrong", {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
         }
       );
   };
