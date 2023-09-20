@@ -63,7 +63,7 @@ const ContactForm = () => {
           console.log(result.text);
           toast.success("Email Sent Successfully!", {
             position: "top-center",
-            autoClose: 3000,
+            autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -79,7 +79,7 @@ const ContactForm = () => {
           console.log(error.text);
           toast.error("Something went wrong", {
             position: "top-center",
-            autoClose: 3000,
+            autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
